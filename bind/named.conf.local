@@ -6,4 +6,4 @@ zone "evil.lab" {
 zone "pub.lab" {
     type master;
     file "/etc/bind/zones/pub.lab";
-}
+};
