@@ -1,0 +1,9 @@
+zone "evil.lab" {
+    type master;
+    file "/etc/bind/zones/evil.lab";
+};
+
+zone "pub.lab" {
+    type master;
+    file "/etc/bind/zones/pub.lab";
+}
