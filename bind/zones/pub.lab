@@ -1,6 +1,6 @@
 $TTL 3600
 @       IN  SOA   ns1.pub.lab  root.pub.lab (
-                                      1    ; Serial - increment after modifying
+                                      2    ; Serial - increment after modifying
                                  604800    ; Refresh
                                   86400    ; Retry
                                 2419200    ; Expire
@@ -10,3 +10,4 @@ $TTL 3600
 @       IN  NS    ns1
 @       IN  A     2.2.2.2
 ns1     IN  A     2.2.2.3
+corp    IN  A     2.2.2.2
